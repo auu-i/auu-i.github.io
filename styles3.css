@@ -72,6 +72,12 @@ html {
 
 @media screen and (max-width: 767px) {
   .content, .aside-item, .header-item, .footer-item, .body{
-    font-size: 50%;
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .body, .header-item, .footer-item, .aside-item, .content{
+    font-size: 80%;
   }
 }
