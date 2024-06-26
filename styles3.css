@@ -64,6 +64,8 @@ html {
   flex: 1 1 0;
   display: flex;
   flex-direction: row;
+  flex-flow: row wrap;
+  align-items: stretch;
 }
 
 .aside {
