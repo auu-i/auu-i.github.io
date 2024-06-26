@@ -10,7 +10,7 @@ html {
   margin: 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .body{
     font-size: 50%;
   }
@@ -32,7 +32,7 @@ html {
   text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .header-item{
     font-size: 50%;
   }
@@ -54,7 +54,7 @@ html {
   font-size: 16px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .footer-item{
     font-size: 50%;
   }
@@ -79,7 +79,7 @@ html {
   padding: 15px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .aside-item{
     font-size: 50%;
   }
@@ -91,7 +91,7 @@ html {
   padding: 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .content{
     font-size: 50%;
   }
