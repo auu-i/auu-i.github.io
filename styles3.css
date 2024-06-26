@@ -10,12 +10,6 @@ html {
   margin: 0;
 }
 
-@media screen and (max-width: 767px) {
-  .body{
-    font-size: 50%;
-  }
-}
-
 .header {
   display: flex;
   background-color: plum;
@@ -32,12 +26,6 @@ html {
   text-align: center;
 }
 
-@media screen and (max-width: 767px) {
-  .header-item{
-    font-size: 50%;
-  }
-}
-
 .footer {
   display: flex;
   background-color: lightcoral;
@@ -52,12 +40,6 @@ html {
   text-align: center;
   color: white;
   font-size: 16px;
-}
-
-@media screen and (max-width: 767px) {
-  .footer-item{
-    font-size: 50%;
-  }
 }
 
 .main {
@@ -81,12 +63,6 @@ html {
   padding: 15px;
 }
 
-@media screen and (max-width: 767px) {
-  .aside-item{
-    font-size: 50%;
-  }
-}
-
 .content {
   flex: auto;
   border-left: 1px solid white;
@@ -95,7 +71,7 @@ html {
 }
 
 @media screen and (max-width: 767px) {
-  .content{
+  .content, .aside-item, .header-item, .footer-item, .body{
     font-size: 50%;
   }
 }
