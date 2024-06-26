@@ -86,6 +86,7 @@ html {
 }
 
 .content {
+  flex: auto;
   border-left: 1px solid white;
   background-color: antiquewhite;
   padding: 10px;
